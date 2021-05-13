@@ -1,0 +1,97 @@
+#define _CRT_SECURE_NO_WARNINGS 1
+#include<stdio.h>
+#include<string.h>
+int main()
+{
+	int arr[10] = { 1,2,3,4,5,6,7,8,9,10 };
+	int i = 0;
+	while (i < 10)
+	{
+		printf("%d", arr[i]);
+		i++;
+	}
+	return 0;
+}
+//{
+//	int line = 0;
+//	printf("加入比特\n");
+//	while (line <= 20000)
+//	{
+//		printf("我要继续努力:%d\n",line);
+//		line++;
+//	}
+//	if (line > 20000)
+//		printf("迎娶白富美\n");
+//	else
+//		printf("继续努力\n");
+//
+//	
+//	/*printf("好offer\n");*/
+//	/*else
+//		prinft("继续努力学习\n");*/
+//	return 0;
+//}
+
+
+
+
+
+//int main()
+//{
+//	printf("hehe\n");
+//	printf("hehe\n");
+//	printf("hehe\n");
+//	printf("hehe\n");
+//	return 0;
+//}
+//
+//enum Color
+//{
+//	RED,
+//	YELLOW,
+//	BLUE
+//};
+//int main()
+//{
+//	enum Color color = BLUE;
+//	return 0;
+//}
+//#define _CRT_SECURE_NO_WARNINGS 1
+//#include<stdio.h>
+//#include<string.h>
+//#include<stdlib.h>
+//#include <time.h>
+//int main()
+//
+//	printf("%c\n", '\x61');
+//	
+//
+//		return 0;
+//	}
+	/*printf("%c\n", '\132');*/
+	/*printf("%d\n", strlen("c:\test\32\test.c"));*/
+	/*char arr1[] = "abc";
+	char arr2[] = { 'a', 'b', 'c' };
+	printf("%d\n", strlen(arr1));
+	printf("%d\n", strlen(arr2));*/
+//#define _CRT_SECURE_NO_WARNINGS 1
+//#include<stdio.h>
+//#include<string.h>
+//#include<stdlib.h>
+//#include <time.h>
+//int main()
+//{
+//	int coding = 0;
+//	printf("你以后会敲代码嘛？(1/0):>");
+//	scanf("%d", &coding);
+//	if (coding == 1)
+//	
+//		printf("你会秃头\n");
+//	else
+//	
+//		printf("你会很穷\n");
+//	
+//	return 0;
+//}
+
+
