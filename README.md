@@ -102,3 +102,52 @@ int main()
 //		printf("请输出较大值%d\n", num2);
 //	return 0;
 //}
+#include<stdio.h>
+#include<string.h>
+#define MAX(X,Y) (X>Y?X:Y)
+int main()
+{
+	int a = 10;
+	int b = 20;
+	int max = MAX(a, b);
+	printf("max=%d\n", max);
+	return 0;
+
+}
+//extern int Add(int, int);
+//int main()
+//{
+//	int a = 10;
+//	int b = 20;
+//	int sum = Add(a, b);
+//		printf("sum=%d\n", sum);
+//	return 0;
+//}
+//int main()
+//{
+//	extern int g_val;
+//	printf("g_val=%d\n",g_val);
+//	return 0;
+//}
+//void test()
+//{
+//	static int b = 1;
+// static修饰局部变量
+// 局部变量生命周期变长
+// static修饰全局变量
+// 改变了变量的作用域---让静态的全局变量只能在自己所在的源文件内部使用
+// 出了源文件就没法使用
+//	b++;
+//printf("b=%d\n", b);
+//}
+//
+//int main()
+//{
+//	int i = 0;
+//	while (i < 5)
+//	{
+//		test();
+//		i++;
+//	}
+//	return 0;
+//}
