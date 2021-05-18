@@ -151,3 +151,51 @@ int main()
 //	}
 //	return 0;
 //}
+//5.18
+#include<stdio.h>
+#include<string.h>
+struct Book
+{
+	char name[20];
+	short price;
+	int designer;//int可输出  char不可
+};
+int main()
+{
+	struct Book b1 = { "C语言程序设计",55 ,"胥楚才"};
+	struct Book* pb = &b1;
+	printf("%s\n", (*pb).name);
+	printf("%d\n", (*pb).price);
+	printf("%s\n", (*pb).designer);//有点问题
+	///*printf("书名:%s\n", b1.name);
+	//printf("价格：%d元\n", b1.price);
+	//b1.price = 15;
+	//printf("修改后的价格：%d元\n",b1.price);*/
+	return 0;
+}
+//int main()
+//{
+//	printf("%d\n", sizeof(int*));
+//	printf("%d\n", sizeof(char*));
+//	printf("%d\n", sizeof(short*));
+//	printf("%d\n", sizeof(double*));
+//	return 0;
+//}
+//int main()
+//{
+//	char ch = 'w';
+//	char* pc = &ch;
+//	*pc = 'T';
+//	printf("%c\n", ch);
+//	return 0;
+//}
+//int main()
+//{
+//	int a = 10;
+//	int* p = &a;
+//	printf("%p\n", p);
+//	printf("%p\n", &a);
+//	*p = 20;
+//	printf("a=%d\n", a);
+//	return 0;
+//}
